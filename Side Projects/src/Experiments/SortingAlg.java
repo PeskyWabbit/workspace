@@ -64,7 +64,6 @@ public class SortingAlg {
 			}
 		}
 		int returnVal2 = chooser.showSaveDialog(null);
-		String myWriterRef = null;
 		
 		if (returnVal2 == JFileChooser.APPROVE_OPTION){
 			myWriterRef = chooser.getSelectedFile().getAbsolutePath();
